@@ -65,5 +65,12 @@ Record with OBS/Xbox Game Bar (2–4 min) showing: hover over price panel, click
 ## Deploy
 
 - Supabase: run `supabase/schema.sql`, copy URL + anon key.
+
+## Deployment Links
+* **Frontend (Vercel):** https://frontend-two-mu-10.vercel.app/
+* **Backend (Render):** https://ine-assignment-anpr.onrender.com
+
+## Demo / Screen Recording
+* **Headed Scraper Demo:** https://drive.google.com/file/d/1_fY-Y9s4WpryOeNtmT8luahEkpI7eDmG/view?usp=sharing
 - Render: root `backend/`, build `npm install && npx playwright install chromium`, start `npm start`. Set env above.
 - Vercel: root `frontend/`, build `npm run build`, output `dist`. Set `VITE_API_BASE`.
